@@ -3,6 +3,7 @@
     "editor.wordWrap": "on",
     "workbench.settings.editor": "json",
     "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django"
+        "--load-plugins=pylint_django",
+        "--errors-only"
    ],
 }
