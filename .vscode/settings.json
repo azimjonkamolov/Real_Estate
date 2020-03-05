@@ -1,3 +1,8 @@
 {
-    "python.pythonPath": "venv\\Scripts\\python.exe"
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "editor.wordWrap": "on",
+    "workbench.settings.editor": "json",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+   ],
 }
